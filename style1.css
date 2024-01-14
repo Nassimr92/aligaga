@@ -1,0 +1,117 @@
+@charset "UTF-8";
+footer {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  flex-shrink: 0;
+}
+
+header {
+  background-color: #394240;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 50px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffd700;
+}
+
+#home-content {
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  background-image: url("img/background-accueil.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+  height: 89vh;
+}
+#home-content p {
+  margin-bottom: 20px;
+}
+#home-content #buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#panier-content {
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.pokemon-card {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
+.pokemon-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Désactive la sélection de texte */
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard */
+}
+
+/* Désactive le surlignement */
+::selection {
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */

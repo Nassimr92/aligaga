@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligaga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Boutique Pokémon</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="cart.html">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside id="filters">
+            <h2>Filtres</h2>
+            <div class="filter-section">
+                <h3>Type</h3>
+                <select id="type-filter">
+                    <!-- Les options de type seront chargées ici -->
+                </select>
+            </div>
+            <div class="filter-section">
+                <h3>Niveau d'évolution</h3>
+                <select id="evolution-filter">
+                    <option value="all">Tous</option>
+                    <option value="base">Base</option>
+                    <option value="evolved">Évolué</option>
+                    <option value="final">Final</option>
+                </select>
+            </div>
+            <button id="apply-filters">Appliquer</button>
+            <button id="reset-filters">Réinitialiser </button>
+
+        </aside>
+
+        <main id="product-list">
+            <!-- Les produits Pokémon seront chargés ici -->
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pokémon E-Commerce</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
